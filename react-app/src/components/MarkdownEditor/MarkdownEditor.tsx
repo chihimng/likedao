@@ -9,7 +9,7 @@ import { MarkdownPreviewProps } from "@uiw/react-markdown-preview";
 import rehypeSanitize from "rehype-sanitize";
 import cn from "classnames";
 
-import "./MarkdownEditor.module.scss";
+import "./MarkdownEditor.scss";
 
 interface MarkdownEditorProps
   extends Omit<MDEditorProps, "onChange" | "value"> {

@@ -3,7 +3,7 @@ import cn from "classnames";
 import { Reaction } from "@charkour/react-reactions";
 import { getReactionType, ReactionType } from "./ReactionModel";
 
-import "./ReactionBadge.module.scss";
+import "./ReactionBadge.scss";
 
 export type ReactionBadgeTheme = "white" | "grey";
 
