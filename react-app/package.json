@@ -72,6 +72,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-tailwindcss": "^3.5.0",
     "json-sort-cli": "^2.0.13",
+    "parcel": "^2.6.2",
     "postcss": "^8.4.12",
     "prettier": "^2.6.2",
     "stylelint": "^14.8.0",
