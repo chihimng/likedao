@@ -74,6 +74,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-tailwindcss": "^3.5.0",
     "events": "^3.3.0",
+    "jest": "^28.1.2",
     "json-sort-cli": "^2.0.13",
     "parcel": "^2.6.2",
     "path-browserify": "^1.0.1",
@@ -84,11 +85,13 @@
     "stream-browserify": "^3.0.0",
     "stylelint": "^14.8.0",
     "stylelint-scss": "^4.2.0",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "ts-jest": "^28.0.5"
   },
   "scripts": {
     "start": "parcel ./public/index.html --dist-dir build --port 3000",
     "build": "parcel build ./public/index.html --dist-dir build",
+    "test": "jest",
     "check-format": "prettier --list-different 'src/**/*.{js,jsx,ts,tsx,css,scss}'",
     "format": "prettier --write --list-different 'src/**/*.{js,jsx,ts,tsx,css,scss}'",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
