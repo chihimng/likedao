@@ -1,7 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import LocalizedText from "../common/Localized/LocalizedText";
-import { ReactComponent as LikeLogo } from "../../assets/likecoin-logo.svg";
+import LikeLogo from "jsx:../../assets/likecoin-logo.svg";
 import { ChainHealth } from "../../generated/graphql";
 import ChainSwitcher from "../ChainSwitcher/ChainSwitcher";
 

@@ -2,8 +2,8 @@ import React, { Fragment, useCallback } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import cn from "classnames";
 
-import { ReactComponent as KeplrLogo } from "../../assets/keplr-logo.svg";
-import { ReactComponent as WalletConnectLogo } from "../../assets/walletconnect-logo.svg";
+import KeplrLogo from "jsx:../../assets/keplr-logo.svg";
+import WalletConnectLogo from "jsx:../../assets/walletconnect-logo.svg";
 
 import Divider from "../common/Divider/Divider";
 import { Icon, IconType } from "../common/Icons/Icons";
